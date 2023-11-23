@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "productName": "laptop",
+    "price": 999.99,
+    "isUsed": false,
+    "productCategories": ["Electronics"],
+    "weight": 2.5,
+    "stock": 50,
+    "material": "Plastic"
+  },
+  {
+    "id": 2,
+    "productName": "smartphone",
+    "price": 499.99,
+    "isUsed": true,
+    "productCategories": ["Electronics"],
+    "weight": 0.3,
+    "stock": 100,
+    "material": "Metal"
+  },
+  {
+    "id": 3,
+    "productName": "headphones",
+    "price": 79.99,
+    "isUsed": false,
+    "productCategories": ["electronics"],
+    "weight": 0.2,
+    "stock": 75,
+    "material": "Plastic"
+  }
+]
