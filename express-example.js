@@ -18,7 +18,7 @@ app.get("/products/:name", (req, res) =>{
    let dataAsJson = JSON.parse(dataAsString);
    for (let i = 0; i < dataAsJson.length; i++) {
       if(dataAsJson[i].productName == req.params.name){
-         res.send(dataAsJson[i]);
+         return res.send(dataAsJson[i]);
       }
    }
    res.send("404 product not found");
